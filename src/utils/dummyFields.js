@@ -41,3 +41,31 @@ export const dummyFields = [
 
   { label: "Agree to Terms", name: "agree", type: "checkbox", value: true }
 ];
+
+// Dummy Table Data
+export const dummyUsers = [
+  {
+    _id: "1",
+    name: "John Doe",
+    email: "john@example.com",
+    phone: "9876543210",
+    status: "Active",
+    role: "Admin",
+  },
+  {
+    _id: "2",
+    name: "Sarah Smith",
+    email: "sarah@example.com",
+    phone: "9876500000",
+    status: "Inactive",
+    role: "Manager",
+  },
+  {
+    _id: "3",
+    name: "Alex Johnson",
+    email: "alex@example.com",
+    phone: "9999988888",
+    status: "Pending",
+    role: "Staff",
+  },
+];

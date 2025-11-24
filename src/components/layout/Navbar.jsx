@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/images/Logo_Dhivoo.png";
+import logo from "../../assets/images/react-logo.png";
 import { CiBellOn } from "react-icons/ci";
 import { data, Link } from "react-router-dom";
 import { LuUser } from "react-icons/lu";
