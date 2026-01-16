@@ -19,7 +19,7 @@ export const SubcategoryList = () => {
       const res = await axios.get("your_subcategories_api");
 
       // Map the data to include category name
-      const subcategories = res.data.subCategories.map(subcategory => ({
+      const subcategories = res.data.subCategories.map((subcategory) => ({
         ...subcategory,
         categoryName: subcategory.category.name,
       }));
